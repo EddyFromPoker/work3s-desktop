@@ -7,7 +7,8 @@
 <p align="center">
   <strong>Your AI workforce that never sleeps.</strong><br/>
   Work3s listens to your task boards, assigns work to AI agents, and ships code — autonomously.<br/>
-  From ticket to pull request, without lifting a finger.
+  Delegate multiple tasks in parallel. AI handles the heavy lifting.<br/>
+  You review, test, and make the final call.
 </p>
 
 <p align="center">
@@ -31,7 +32,7 @@ You have a backlog full of tickets. You have AI coding tools that can write code
 
 You're still manually reading tickets, switching branches, opening terminals, launching AI assistants, reviewing output, raising PRs, and updating boards. Every task requires a dozen context switches before a single line of code is written.
 
-**Work3s eliminates all of it.**
+**Work3s eliminates the donkey work.** AI agents read your tickets, write the code, and raise the PRs. You focus on what only a human can do — review the output, run your tests, and approve the final result. Multiple tasks run in parallel. You step in only at the finish line.
 
 ---
 
@@ -56,7 +57,7 @@ The core of Work3s. Connect your project management boards and let AI agents pic
    > **Raise** a Pull Request with a summary of changes  
    > **Move** the ticket to Done (or your configured status)
 
-No manual intervention required. You review the PR when you're ready.
+Multiple tasks execute in parallel, each in its own isolated worktree. No conflicts, no interference. You check in when you're ready — review the diffs, run your test suite, and merge with confidence.
 
 ### Configure Once, Automate Forever
 
