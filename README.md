@@ -5,8 +5,9 @@
 <h3 align="center">Agentic Command Center</h3>
 
 <p align="center">
-  <strong>Stop juggling branches. Start shipping faster.</strong><br/>
-  Work3s is a native desktop app that gives you superpowers for managing Git worktrees, integrating with your favorite tools, and automating your development workflow.
+  <strong>Your AI workforce that never sleeps.</strong><br/>
+  Work3s listens to your task boards, assigns work to AI agents, and ships code — autonomously.<br/>
+  From ticket to pull request, without lifting a finger.
 </p>
 
 <p align="center">
@@ -24,54 +25,127 @@
 
 ---
 
-<!-- Uncomment and add screenshot paths when available
-<p align="center">
-  <img src="https://raw.githubusercontent.com/EddyFromPoker/work3s-desktop/main/assets/screenshot-dashboard.png" alt="Work3s Dashboard" width="800" />
-</p>
--->
+## The Problem
 
-## Why Work3s?
+You have a backlog full of tickets. You have AI coding tools that can write code. But nothing connects the two.
 
-Most developers work on multiple branches, PRs, and tasks throughout the day. Every context switch means stashing changes, switching branches, waiting for rebuilds, and losing your flow.
+You're still manually reading tickets, switching branches, opening terminals, launching AI assistants, reviewing output, raising PRs, and updating boards. Every task requires a dozen context switches before a single line of code is written.
 
-**Git worktrees** solve this by letting you have multiple branches checked out simultaneously in separate directories. But managing them from the terminal is tedious.
-
-**Work3s makes it effortless.** One click to create a worktree from a PR. One click to open it in your IDE. Real-time status at a glance. AI-powered workflows that handle the rest.
+**Work3s eliminates all of it.**
 
 ---
 
-## What You Get
+## Task Listeners — Autonomous AI Workflows
 
-### Instant Context Switching
-Open any branch in its own directory without stashing, resetting, or waiting. Jump between tasks in seconds, not minutes. Each worktree is isolated — your `node_modules`, build cache, and running servers stay untouched.
+The core of Work3s. Connect your project management boards and let AI agents pick up work automatically.
 
-### See Everything at a Glance
-A beautiful, real-time dashboard shows the status of every worktree across all your repositories. Color-coded indicators tell you instantly which branches are clean, which have changes, and which need attention.
+### How It Works
 
-### One-Click IDE & Terminal Launch
-Open any worktree directly in your preferred editor or terminal. Work3s supports **25+ IDEs** and **6+ terminals** — from VS Code and Cursor to the full JetBrains suite, Vim, Zed, and more.
+1. **Connect your boards** — JIRA, Linear, Trello, GitHub Projects, Asana, Notion, ClickUp, Azure DevOps, or Monday.com
+2. **Define your triggers** — Filter by assignment, status, labels, or any combination
+   - *"Assigned to me & moved to In Progress"*
+   - *"Labeled `bug` & priority High"*
+   - *"Sprint active & unassigned"*
+3. **Choose your AI agent** — Claude Code, Gemini CLI, GitHub Copilot, Codex, Aider, or any custom command
+4. **Let it run** — Work3s watches your boards in real time. When a task matches your trigger:
 
-### GitHub PR Integration
-Create a worktree from any Pull Request in one step. Work3s fetches the PR branch, sets up the worktree, and opens it in your IDE. Review PRs without disrupting your current work.
+   > **Read** the ticket and requirements  
+   > **Create** an isolated Git worktree for the task  
+   > **Launch** the AI agent with full task context  
+   > **Implement** the fix or feature autonomously  
+   > **Raise** a Pull Request with a summary of changes  
+   > **Move** the ticket to Done (or your configured status)
 
-### AI-Powered Workflows
-Launch AI coding assistants like **Claude Code**, **GitHub Copilot CLI**, **Gemini CLI**, **Aider**, and more — directly in the worktree context. Optional "yolo mode" for fully autonomous AI coding sessions.
+No manual intervention required. You review the PR when you're ready.
 
-### Project Management Integration
-Connect your task boards from **JIRA**, **Linear**, **GitHub Projects**, **Asana**, **Notion**, **ClickUp**, and more. AI-powered task tracking, story point estimation, and automatic PR creation on task completion.
+### Configure Once, Automate Forever
 
-### Multi-Repository Workspace
-Manage all your repositories in a single window. Star favorites, organize into groups, and switch instantly with `Cmd+P`. Handle 100+ worktrees across 10+ repos without breaking a sweat.
+Each repository gets its own Task Listener configuration:
 
-### AI Code Review
-Get AI-powered code reviews with diff visualization, issue identification, and actionable suggestions — all without leaving the app.
+- **Workflow type** — Trunk-based, Git-flow, or custom branching strategy
+- **AI agent** — Select from 10+ supported assistants with optional "yolo mode" for fully autonomous sessions
+- **Merge strategy** — Merge, rebase, or squash
+- **Sensitive files** — Automatically copy `.env`, config files, and secrets to new worktrees
+- **Story point estimation** — Fibonacci, T-shirt sizing, linear, or powers of two
+- **Auto-PR** — Automatically raise a pull request when the AI agent completes its work
+- **Task templates** — Customize how task context is passed to the AI agent
 
 ---
 
-## Supported Tools
+## One-Click PR Review
+
+Review pull requests without leaving Work3s.
+
+- **AI-powered analysis** — Select your preferred AI model to review diffs, identify issues, and suggest improvements
+- **Split or unified diffs** — View changes the way you prefer
+- **Inline suggestions** — Actionable feedback on every file changed
+- **Review history** — Track past reviews and comments
+
+Open a PR, click Review, get results. That simple.
+
+---
+
+## Git Power Shortcuts
+
+Work3s replaces dozens of terminal commands with instant keyboard-driven actions.
+
+| Shortcut | Action |
+|---|---|
+| `Cmd+K` | **Command Palette** — Search and execute any action |
+| `Cmd+P` | **Quick Switch** — Jump between repositories instantly |
+| `Cmd+N` | **New Worktree** — Isolated branch in one keystroke |
+| `Cmd+O` | **Add Repository** — Bring in a new repo |
+| `Cmd+R` | **Refresh** — Sync status across all worktrees |
+| `Cmd+B` | **Star Repository** — Pin your most-used repos |
+| `Cmd+,` | **Settings** — Configure everything |
+| `Cmd+1-9` | **Jump to Repo** — Direct access by position |
+
+### Worktree Management
+
+Every branch gets its own directory. No stashing. No rebuilds. No conflicts with running servers.
+
+- **Create from PR** — One click to check out any Pull Request into an isolated worktree
+- **Real-time status** — Color-coded indicators across every worktree: clean, modified, untracked
+- **One-click open** — Launch any worktree in your IDE or terminal instantly
+- **Multi-repo workspace** — Manage 100+ worktrees across 10+ repositories in a single window
+- **File watcher** — Automatic UI updates when Git state changes — no manual refresh needed
+
+---
+
+## Supported Integrations
 
 <table>
 <tr>
+<td width="33%" valign="top">
+
+**Project Management**
+- JIRA
+- Linear
+- Trello
+- GitHub Projects
+- Azure DevOps
+- Asana
+- Notion
+- ClickUp
+- Monday.com
+
+</td>
+<td width="33%" valign="top">
+
+**AI Agents**
+- Claude Code
+- GitHub Copilot CLI
+- Gemini CLI
+- Codex
+- Cursor AI
+- Aider
+- Ollama (local)
+- OpenAI CLI
+- Warp Agent
+- llama.cpp
+- _Custom commands_
+
+</td>
 <td width="33%" valign="top">
 
 **IDEs & Editors**
@@ -80,46 +154,13 @@ Get AI-powered code reviews with diff visualization, issue identification, and a
 - Zed
 - Sublime Text
 - Vim / Neovim
-- Emacs
-- Nova / Lapce
 - IntelliJ IDEA
 - WebStorm
 - PyCharm
 - GoLand
 - RustRover
 - Xcode
-- Android Studio
-- _and 10+ more_
-
-</td>
-<td width="33%" valign="top">
-
-**AI Assistants**
-- Claude Code
-- GitHub Copilot CLI
-- Gemini CLI
-- Cursor AI
-- Aider
-- Ollama (local)
-- OpenAI CLI
-- Codex
-- Warp Agent
-- llama.cpp
-- _Custom commands_
-
-</td>
-<td width="33%" valign="top">
-
-**Project Management**
-- JIRA
-- Linear
-- GitHub Projects
-- Azure DevOps
-- Asana
-- Notion
-- ClickUp
-- Monday.com
-- Trello
+- _and 15+ more_
 
 </td>
 </tr>
@@ -129,9 +170,9 @@ Get AI-powered code reviews with diff visualization, issue identification, and a
 
 ---
 
-## Performance
+## Built for Speed
 
-Work3s is built with **Rust** and **Tauri** for native performance. No Electron. No bloat.
+Native Rust backend. No Electron. No web wrapper. Just raw performance.
 
 | | |
 |---|---|
@@ -153,39 +194,32 @@ For download and installation instructions, visit **[work-3s.com](https://www.wo
 - Apple Silicon or Intel Mac
 - Git installed (comes pre-installed on macOS)
 
----
-
-## Keyboard Shortcuts
-
-| Shortcut | Action |
-|---|---|
-| `Cmd+K` | Command Palette |
-| `Cmd+P` | Quick Switch Repository |
-| `Cmd+N` | New Worktree |
-| `Cmd+O` | Add Repository |
-| `Cmd+R` | Refresh |
-| `Cmd+B` | Star/Unstar Repository |
-| `Cmd+,` | Settings |
-| `Cmd+1-9` | Jump to Repository |
+Auto-updates are built in. Once installed, Work3s keeps itself current.
 
 ---
 
 ## Frequently Asked Questions
 
-**Does it work with private repositories?**
-Yes. Add a GitHub Personal Access Token in the settings and Work3s will work with all your private repos.
+**How do Task Listeners connect to my boards?**
+Work3s authenticates directly with your project management platform. Configure your credentials once in Settings, define your trigger rules, and the listener runs continuously in the background.
 
-**Do I need to know Git worktrees to use Work3s?**
-Not at all. Work3s handles all the Git complexity behind the scenes. If you can click a button, you can use Work3s.
+**Which AI agent should I use?**
+Any CLI-based AI coding tool works. Claude Code and Gemini CLI are the most popular choices. Work3s passes full task context to whichever agent you select — including ticket description, acceptance criteria, and repository context.
+
+**What is "yolo mode"?**
+Yolo mode runs the AI agent with auto-permission flags, allowing it to make changes without confirmation prompts. Ideal for well-scoped tasks with clear requirements. Can be toggled per repository.
+
+**Does it work with private repositories?**
+Yes. Add a GitHub Personal Access Token in Settings and Work3s works with all your private repos.
+
+**Do I need to understand Git worktrees?**
+Not at all. Work3s handles all Git complexity behind the scenes. If you can click a button, you can use Work3s.
 
 **What about Windows and Linux?**
 macOS is the primary platform today. Windows and Linux support is on the roadmap.
 
-**How does auto-update work?**
-Work3s checks for updates automatically and notifies you when a new version is available. Updates install in the background with zero downtime.
-
 ---
 
 <p align="center">
-  <sub>Built with Rust + Tauri for native performance. Designed for developers who ship.</sub>
+  <sub>Built with Rust + Tauri. Designed for developers who ship.</sub>
 </p>
