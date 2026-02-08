@@ -6,7 +6,7 @@
 
 **Your AI workforce that never sleeps.**
 
-Work3s listens to your task boards, assigns work to AI agents, and ships code autonomously. Delegate multiple tasks in parallel while AI handles the heavy lifting : ### you review, test, and make the final call
+Work3s listens to your task boards, assigns work to AI agents, and ships code autonomously. Delegate multiple tasks in parallel while AI handles the heavy lifting : ###you review, test, and make the final call
 
 ### What this means
 - Continuous task intake from your boards  
