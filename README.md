@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/EddyFromPoker/work3s-desktop/main/assets/work3s-logo.svg" alt="Work3s Logo" width="120" />
+  <img src="https://raw.githubusercontent.com/EddyFromPoker/work3s-desktop/main/assets/app-icon-green.svg" alt="Work3s" width="160" />
 </p>
 
-<h1 align="center">Work3s</h1>
 <h3 align="center">Agentic Command Center</h3>
 
 <p align="center">
