@@ -12,6 +12,17 @@
 </p>
 
 <p align="center">
+  <em>Work3s doesn't cut corners — it removes the work that never needed a human in the first place.<br/>
+  Ten tasks running in parallel, each producing production-grade code, each waiting for your sign-off.<br/>
+  You're not working harder. You're not sacrificing quality.<br/>
+  You're simply not doing the parts that AI does better.</em>
+</p>
+
+<p align="center">
+  <strong>10x the output. Same quality bar.</strong>
+</p>
+
+<p align="center">
   <a href="https://www.work-3s.com/"><img src="https://img.shields.io/github/v/release/EddyFromPoker/work3s-desktop?style=for-the-badge&color=22c55e&label=Download" alt="Download Latest" /></a>
   &nbsp;
   <img src="https://img.shields.io/badge/macOS-13%2B-000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" />
@@ -221,13 +232,7 @@ macOS is the primary platform today. Windows and Linux support is on the roadmap
 
 ---
 
-<h3 align="center">10x the output. Same quality bar.</h3>
-
 <p align="center">
-  Work3s doesn't cut corners — it removes the work that never needed a human in the first place.<br/>
-  Ten tasks running in parallel, each producing production-grade code, each waiting for your sign-off.<br/>
-  You're not working harder. You're not sacrificing quality. You're simply not doing the parts that AI does better.<br/>
-  <br/>
   <strong>The bottleneck was never your ability to write code. It was everything around it.</strong><br/>
   <br/>
   <a href="https://www.work-3s.com/"><strong>Get started at work-3s.com</strong></a>
