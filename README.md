@@ -15,7 +15,7 @@
   <em>Work3s doesn't cut corners — it removes the work that never needed a human in the first place.<br/>
   Ten tasks running in parallel, each producing production-grade code, each waiting for your sign-off.<br/>
   You're not working harder. You're not sacrificing quality.<br/>
-  You're simply not doing the parts that AI does better.</em>
+  You're simply not doing the parts that AI does ~better~ faster.</em>
 </p>
 
 <p align="center">
