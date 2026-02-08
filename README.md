@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/EddyFromPoker/work3s-desktop/releases/latest"><img src="https://img.shields.io/github/v/release/EddyFromPoker/work3s-desktop?style=for-the-badge&color=22c55e&label=Download" alt="Download Latest" /></a>
+  <a href="https://www.work-3s.com/"><img src="https://img.shields.io/github/v/release/EddyFromPoker/work3s-desktop?style=for-the-badge&color=22c55e&label=Download" alt="Download Latest" /></a>
   &nbsp;
   <img src="https://img.shields.io/badge/macOS-13%2B-000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" />
   &nbsp;
@@ -19,8 +19,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/EddyFromPoker/work3s-desktop/releases/latest">Download for Mac (Apple Silicon)</a> &bull;
-  <a href="https://github.com/EddyFromPoker/work3s-desktop/releases/latest">Download for Mac (Intel)</a>
+  <a href="https://www.work-3s.com/">Download for Mac (Apple Silicon)</a> &bull;
+  <a href="https://www.work-3s.com/">Download for Mac (Intel)</a>
 </p>
 
 ---
@@ -146,13 +146,7 @@ Work3s is built with **Rust** and **Tauri** for native performance. No Electron.
 
 ## Installation
 
-1. **Download** the latest `.dmg` from the [Releases page](https://github.com/EddyFromPoker/work3s-desktop/releases/latest)
-   - **Apple Silicon** (M1/M2/M3/M4): `Work3s_x.x.x_aarch64.dmg`
-   - **Intel**: `Work3s_x.x.x_x64.dmg`
-2. **Open** the `.dmg` and drag Work3s to your Applications folder
-3. **Launch** Work3s and add your first repository
-
-> **Auto-updates included.** Once installed, Work3s will notify you when new versions are available and update itself seamlessly.
+For download and installation instructions, visit **[work-3s.com](https://www.work-3s.com/)**.
 
 ### System Requirements
 
