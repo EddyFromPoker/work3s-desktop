@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">Work3s</h1>
-<h3 align="center">Your Agentic Command Center for Git</h3>
+<h3 align="center">Agentic Command Center</h3>
 
 <p align="center">
   <strong>Stop juggling branches. Start shipping faster.</strong><br/>
