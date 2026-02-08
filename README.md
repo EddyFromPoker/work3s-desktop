@@ -2,25 +2,23 @@
   <img src="https://raw.githubusercontent.com/EddyFromPoker/work3s-desktop/main/assets/app-icon-green.svg" alt="Work3s" width="160" />
 </p>
 
-<h3 align="center">Agentic Command Center</h3>
+## Agentic Command Center
 
-<p align="center">
-  <strong>Your AI workforce that never sleeps.</strong><br/>
-  Work3s listens to your task boards, assigns work to AI agents, and ships code — autonomously.<br/>
-  Delegate multiple tasks in parallel. AI handles the heavy lifting.<br/>
-  You review, test, and make the final call.
-</p>
+**Your AI workforce that never sleeps.**
 
-<p align="center">
-  <em>Work3s doesn't cut corners — it removes the work that never needed a human in the first place.<br/>
-  Ten tasks running in parallel, each producing production-grade code, each waiting for your sign-off.<br/>
-  You're not working harder. You're not sacrificing quality.<br/>
-  You're simply not doing the parts that AI does faster.</em>
-</p>
+Work3s listens to your task boards, assigns work to AI agents, and ships code autonomously. Delegate multiple tasks in parallel while AI handles the heavy lifting — you review, test, and make the final call.
 
-<p align="center">
-  <strong>10x the output. Same quality bar.</strong>
-</p>
+### What this means
+- Continuous task intake from your boards  
+- Automatic delegation to specialized AI agents  
+- Parallel task execution  
+- Production-grade code outputs  
+- Human approval before merge or release  
+
+Work3s doesn’t cut corners — it removes work that never required a human in the first place. Run ten tasks in parallel, each producing production-ready code, each waiting for your sign-off.
+
+### Value
+**10× output. Same quality bar.**
 
 <p align="center">
   <a href="https://www.work-3s.com/"><img src="https://img.shields.io/github/v/release/EddyFromPoker/work3s-desktop?style=for-the-badge&color=22c55e&label=Download" alt="Download Latest" /></a>
