@@ -162,28 +162,6 @@ Work3s is built with **Rust** and **Tauri** for native performance. No Electron.
 
 ---
 
-## Pricing
-
-| | PRO | Team |
-|---|---|---|
-| **Price** | **$9.99/mo** or $99/year | **$49/mo** or $490/year |
-| Unlimited repos & worktrees | Yes | Yes |
-| 25+ IDE integrations | Yes | Yes |
-| GitHub PR integration | Yes | Yes |
-| AI assistant integration | Yes | Yes |
-| JIRA & project management | Yes | Yes |
-| AI code review | Yes | Yes |
-| Priority email support | Yes | Yes |
-| Team collaboration | - | Yes |
-| Shared worktree templates | - | Yes |
-| Advanced analytics | - | Yes |
-| Dedicated account manager | - | Yes |
-| | | **Coming Soon** |
-
-All plans include a **30-day free trial**. No credit card required to start.
-
----
-
 ## Keyboard Shortcuts
 
 | Shortcut | Action |
@@ -201,9 +179,6 @@ All plans include a **30-day free trial**. No credit card required to start.
 
 ## Frequently Asked Questions
 
-**Is Work3s free?**
-Work3s offers a 30-day free trial with full access to all PRO features. After the trial, a subscription is required to continue using the app.
-
 **Does it work with private repositories?**
 Yes. Add a GitHub Personal Access Token in the settings and Work3s will work with all your private repos.
 
@@ -215,13 +190,6 @@ macOS is the primary platform today. Windows and Linux support is on the roadmap
 
 **How does auto-update work?**
 Work3s checks for updates automatically and notifies you when a new version is available. Updates install in the background with zero downtime.
-
----
-
-## Support
-
-- Report issues on [GitHub Issues](https://github.com/EddyFromPoker/work3s-desktop/issues)
-- Feature requests welcome — open an issue with the `enhancement` label
 
 ---
 
