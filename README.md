@@ -9,13 +9,13 @@
 Work3s listens to your task boards, assigns work to AI agents, and ships code autonomously. Delegate multiple tasks in parallel while AI handles the heavy lifting — you review, test, and make the final call.
 
 ### What this means
-- Continuous task intake from your boards  
-- Automatic delegation to specialized AI agents  
-- Parallel task execution  
-- Production-grade code outputs  
-- Human approval before merge or release  
+- Continuous task intake from your boards
+- Automatic delegation to specialized AI agents
+- Parallel task execution
+- Production-grade code outputs
+- Human approval before merge or release
 
-Work3s doesn’t cut corners — it removes work that never required a human in the first place. Run ten tasks in parallel, each producing production-ready code, each waiting for your sign-off.
+Work3s doesn't cut corners — it removes work that never required a human in the first place. Run ten tasks in parallel, each producing production-ready code, each waiting for your sign-off.
 
 ### Value
 **10× output. Same quality bar.**
@@ -25,19 +25,24 @@ Work3s doesn’t cut corners — it removes work that never required a human in 
   &nbsp;
   <img src="https://img.shields.io/badge/macOS-13%2B-000?style=for-the-badge&logo=apple&logoColor=white" alt="macOS" />
   &nbsp;
+  <img src="https://img.shields.io/badge/Windows-10%2B-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/Linux-Ubuntu%2F Fedora-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  &nbsp;
   <img src="https://img.shields.io/github/downloads/EddyFromPoker/work3s-desktop/total?style=for-the-badge&color=6366f1&label=Downloads" alt="Total Downloads" />
 </p>
 
 <p align="center">
-  <a href="https://www.work-3s.com/">Download for Mac (Apple Silicon)</a> &bull;
-  <a href="https://www.work-3s.com/">Download for Mac (Intel)</a>
+  <a href="https://www.work-3s.com/">Download for macOS</a> &bull;
+  <a href="https://www.work-3s.com/">Download for Windows</a> &bull;
+  <a href="https://www.work-3s.com/">Download for Linux</a>
 </p>
 
 ---
 
 ## The Problem
 
-You have a backlog full of tickets and AI coding tools, but nothing connects the two.  
+You have a backlog full of tickets and AI coding tools, but nothing connects the two.
 
 You're still manually reading tickets, switching branches, opening terminals, launching AI assistants, reviewing output, raising PRs, and updating boards. Every task requires a dozen context switches before a single line of code is written.
 
@@ -51,20 +56,20 @@ The core of Work3s. Connect your project management boards and let AI agents pic
 
 ### How It Works
 
-1. **Connect your boards** — JIRA, Linear, Trello, GitHub Projects, Asana, Notion, ClickUp, Azure DevOps, or Monday.com  
-2. **Define your triggers** — Filter by assignment, status, labels, or any combination:  
-   - *"Assigned to me & moved to In Progress"*  
-   - *"Labeled `bug` & priority High"*  
-   - *"Sprint active & unassigned"*  
-3. **Choose your AI agent** — Claude Code, Gemini CLI, GitHub Copilot, Codex, Aider, or any custom command  
-4. **Let it run** — Work3s watches your boards in real time. When a task matches your trigger:  
+1. **Connect your boards** — JIRA, Linear, Trello, GitHub Projects, Asana, Notion, ClickUp, Azure DevOps, or Monday.com
+2. **Define your triggers** — Filter by assignment, status, labels, or any combination:
+   - *"Assigned to me & moved to In Progress"*
+   - *"Labeled `bug` & priority High"*
+   - *"Sprint active & unassigned"*
+3. **Choose your AI agent** — Claude Code, Gemini CLI, GitHub Copilot, Codex, Aider, or any custom command
+4. **Let it run** — Work3s watches your boards in real time. When a task matches your trigger:
 
-   > **Read** the ticket and requirements  
-   > **Create** an isolated Git worktree for the task  
-   > **Launch** the AI agent with full task context  
-   > **Implement** the fix or feature autonomously  
-   > **Raise** a Pull Request with a summary of changes  
-   > **Move** the ticket to Done (or your configured status)  
+   > **Read** the ticket and requirements
+   > **Create** an isolated Git worktree for the task
+   > **Launch** the AI agent with full task context
+   > **Implement** the fix or feature autonomously
+   > **Raise** a Pull Request with a summary of changes
+   > **Move** the ticket to Done (or your configured status)
 
 Multiple tasks execute in parallel, each in its own isolated worktree. No conflicts, no interference. You check in when you're ready — review diffs, run tests, and merge with confidence.
 
@@ -72,13 +77,13 @@ Multiple tasks execute in parallel, each in its own isolated worktree. No confli
 
 Each repository gets its own Task Listener configuration:
 
-- **Workflow type** — Trunk-based, Git-flow, or custom branching strategy  
-- **AI agent** — Select from 10+ supported assistants with optional "yolo mode" for fully autonomous sessions  
-- **Merge strategy** — Merge, rebase, or squash  
-- **Sensitive files** — Automatically copy `.env`, config files, and secrets to new worktrees  
-- **Story point estimation** — Fibonacci, T-shirt sizing, linear, or powers of two  
-- **Auto-PR** — Automatically raise a pull request when the AI agent completes its work  
-- **Task templates** — Customize how task context is passed to the AI agent  
+- **Workflow type** — Trunk-based, Git-flow, or custom branching strategy
+- **AI agent** — Select from 10+ supported assistants with optional "yolo mode" for fully autonomous sessions
+- **Merge strategy** — Merge, rebase, or squash
+- **Sensitive files** — Automatically copy `.env`, config files, and secrets to new worktrees
+- **Story point estimation** — Fibonacci, T-shirt sizing, linear, or powers of two
+- **Auto-PR** — Automatically raise a pull request when the AI agent completes its work
+- **Task templates** — Customize how task context is passed to the AI agent
 
 ---
 
@@ -86,10 +91,10 @@ Each repository gets its own Task Listener configuration:
 
 Review pull requests without leaving Work3s.
 
-- **AI-powered analysis** — Review diffs, identify issues, and suggest improvements  
-- **Split or unified diffs** — View changes the way you prefer  
-- **Inline suggestions** — Actionable feedback on every file changed  
-- **Review history** — Track past reviews and comments  
+- **AI-powered analysis** — Review diffs, identify issues, and suggest improvements
+- **Split or unified diffs** — View changes the way you prefer
+- **Inline suggestions** — Actionable feedback on every file changed
+- **Review history** — Track past reviews and comments
 
 Open a PR, click Review, get results. That simple.
 
@@ -114,23 +119,23 @@ Work3s replaces dozens of terminal commands with instant keyboard-driven actions
 
 Every branch gets its own directory. No stashing. No rebuilds. No conflicts with running servers.
 
-- **Create from PR** — One click to check out any Pull Request into an isolated worktree  
-- **Real-time status** — Color-coded indicators across every worktree: clean, modified, untracked  
-- **One-click open** — Launch any worktree in your IDE or terminal instantly  
-- **Multi-repo workspace** — Manage 100+ worktrees across 10+ repositories in a single window  
-- **File watcher** — Automatic UI updates when Git state changes — no manual refresh needed  
+- **Create from PR** — One click to check out any Pull Request into an isolated worktree
+- **Real-time status** — Color-coded indicators across every worktree: clean, modified, untracked
+- **One-click open** — Launch any worktree in your IDE or terminal instantly
+- **Multi-repo workspace** — Manage 100+ worktrees across 10+ repositories in a single window
+- **File watcher** — Automatic UI updates when Git state changes — no manual refresh needed
 
 ---
 
 ## Supported Integrations
 
-**Project Management:** JIRA, Linear, Trello, GitHub Projects, Azure DevOps, Asana, Notion, ClickUp, Monday.com  
+**Project Management:** JIRA, Linear, Trello, GitHub Projects, Azure DevOps, Asana, Notion, ClickUp, Monday.com
 
-**AI Agents:** Claude Code, GitHub Copilot CLI, Gemini CLI, Codex, Cursor AI, Aider, Ollama (local), OpenAI CLI, Warp Agent, llama.cpp, _Custom commands_  
+**AI Agents:** Claude Code, GitHub Copilot CLI, Gemini CLI, Codex, Cursor AI, Aider, Ollama (local), OpenAI CLI, Warp Agent, llama.cpp, _Custom commands_
 
-**IDEs & Editors:** VS Code, Cursor, Zed, Sublime Text, Vim / Neovim, IntelliJ IDEA, WebStorm, PyCharm, GoLand, RustRover, Xcode, _and 15+ more_  
+**IDEs & Editors:** VS Code, Cursor, Zed, Sublime Text, Vim / Neovim, IntelliJ IDEA, WebStorm, PyCharm, GoLand, RustRover, Xcode, _and 15+ more_
 
-**Terminals:** Warp, iTerm2, Terminal.app, Kitty, Alacritty, Hyper  
+**Terminals:** Warp, iTerm2, Terminal.app, Kitty, Alacritty, Hyper
 
 ---
 
@@ -154,33 +159,39 @@ For download and installation instructions, visit **[work-3s.com](https://www.wo
 
 ### System Requirements
 
-- macOS 13 (Ventura) or later  
-- Apple Silicon or Intel Mac  
-- Git installed (comes pre-installed on macOS)  
+**macOS**
+- macOS 13 (Ventura) or later
+- Apple Silicon or Intel Mac
 
-Auto-updates are built in. Once installed, Work3s keeps itself current.
+**Windows**
+- Windows 10 or later
+
+**Linux**
+- Ubuntu 22.04+ (.deb), Fedora 38+ (.rpm), or any distro via AppImage
+
+Git must be installed on all platforms. Auto-updates are built in — once installed, Work3s keeps itself current.
 
 ---
 
 ## Frequently Asked Questions
 
-**How do Task Listeners connect to my boards?**  
+**How do Task Listeners connect to my boards?**
 Work3s authenticates directly with your project management platform. Configure your credentials once, define your trigger rules, and the listener runs continuously.
 
-**Which AI agent should I use?**  
+**Which AI agent should I use?**
 Any CLI-based AI coding tool works. Claude Code and Gemini CLI are most popular. Work3s passes full task context to the agent.
 
-**What is "yolo mode"?**  
+**What is "yolo mode"?**
 Yolo mode runs the AI agent with auto-permission flags, allowing changes without confirmation prompts. Ideal for well-scoped tasks.
 
-**Does it work with private repositories?**  
+**Does it work with private repositories?**
 Yes. Add a GitHub Personal Access Token in Settings.
 
-**Do I need to understand Git worktrees?**  
+**Do I need to understand Git worktrees?**
 Not at all. Work3s handles Git complexity behind the scenes.
 
-**What about Windows and Linux?**  
-macOS is the primary platform. Windows and Linux support is planned.
+**Which platforms are supported?**
+Work3s is available on macOS, Windows, and Linux. All platforms receive the same features and auto-updates.
 
 ---
 
